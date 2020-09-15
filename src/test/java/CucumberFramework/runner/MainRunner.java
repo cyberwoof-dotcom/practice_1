@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
    glue = {"CucumberFramework.steps"},
    monochrome = true,
    dryRun = false,
-   tags = {"@sugar_2154"},
+   tags = {},
    plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json", "com.cucumber.listener.ExtentCucumberFormatter:target/report.html"}
    )
 

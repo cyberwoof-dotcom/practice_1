@@ -1,4 +1,3 @@
-@sugar_2387
 Feature: For each new Mother Module created, the name field is auto-populated with 
 the Case Interested Party and an incremental number will be generated for each new 
 record

@@ -1,4 +1,3 @@
-@sugar_2154
 Feature: Verify Features Added to Member Event Module
 
 Scenario Outline:  Validate updates to a Member Event Module
