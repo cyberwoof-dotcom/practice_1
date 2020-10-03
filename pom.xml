@@ -31,10 +31,20 @@
 						<executable>${env.JAVA_HOME}\bin\javac.exe</executable>
 					</configuration>
 				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.0.0-M5</version>
+					<configuration>
+						<includes>
+							<exclude>**/*CucumberRunner.java</exclude>
+						</includes>
+					</configuration>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
-
+<!--
 	<reporting>
 		<plugins>
 			<plugin>
@@ -43,7 +53,7 @@
 				<version>3.0.0-M5</version>
 			</plugin>
 		</plugins>
-	</reporting>
+	</reporting>-->
 
 	<dependencies>
 		<dependency>
@@ -150,6 +160,16 @@
 			<groupId>com.vimalselvam</groupId>
 			<artifactId>cucumber-extentsreport</artifactId>
 			<version>2.0.4</version>
+		</dependency>
+		<dependency>
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>4.2</version>
 		</dependency>
 	</dependencies>
 </project>

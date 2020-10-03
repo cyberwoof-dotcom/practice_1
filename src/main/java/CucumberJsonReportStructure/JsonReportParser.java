@@ -13,6 +13,7 @@ public class JsonReportParser {
     private String id;
     private String keyword;
     private String uri;
+    private List<Tags>tags;
 
     public String getLine() {
         return line;
@@ -68,6 +69,14 @@ public class JsonReportParser {
 
     public void setUri(String uri) {
         this.uri = uri;
+    }
+
+    public List<Tags> getTags() {
+        return tags;
+    }
+
+    public void setTags(List<Tags> tags) {
+        this.tags = tags;
     }
 
     public static List<JsonReportParser> getCucumberReportData() {
