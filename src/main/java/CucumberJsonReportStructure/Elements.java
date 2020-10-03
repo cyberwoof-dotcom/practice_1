@@ -7,13 +7,15 @@ import java.util.List;
 @JsonIgnoreProperties(ignoreUnknown = true)
 
 public class Elements {
+    
+    private List<Before> before;
     private String line;
     private String name;
     private String description;
     private String id;
     private String type;
     private String keyword;
-    private List<Steps>steps;
+    private List<Steps> steps;
     private List<Tags> tags;
 
     public String getLine() {
@@ -78,5 +80,13 @@ public class Elements {
 
     public void setTags(List<Tags> tags) {
         this.tags = tags;
+    }
+
+    public List<Before> getBefore() {
+        return before;
+    }
+
+    public void setBefore(List<Before> before) {
+        this.before = before;
     }
 }
