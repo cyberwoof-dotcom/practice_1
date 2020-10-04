@@ -18,14 +18,5 @@ import org.junit.runner.RunWith;
    )
 
 public class MainRunner {
-
-   @AfterClass
-   public static void populateResultsInTestRail(){
-      TestResult testResult=new TestResult();
-      try {
-         testResult.populateTestResult();
-      } catch (Exception e) {
-         e.printStackTrace();
-      }
-   }
+   
 }
