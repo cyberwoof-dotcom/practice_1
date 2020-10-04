@@ -13,6 +13,7 @@ public class Steps {
     private Match match;
     private String keyword;
     private List<Comments> comments;
+    private List<String>matchedColumns;
 
 
     public String getLine() {
@@ -61,5 +62,13 @@ public class Steps {
 
     public void setComments(List<Comments> comments) {
         this.comments = comments;
+    }
+
+    public List<String> getMatchedColumns() {
+        return matchedColumns;
+    }
+
+    public void setMatchedColumns(List<String> matchedColumns) {
+        this.matchedColumns = matchedColumns;
     }
 }

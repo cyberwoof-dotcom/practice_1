@@ -7,7 +7,7 @@ import java.util.List;
 @JsonIgnoreProperties(ignoreUnknown = true)
 
 public class Elements {
-    
+
     private List<Before> before;
     private String line;
     private String name;
