@@ -118,6 +118,10 @@ public class JsonReportParser {
                         executionStatus = "Failed";
                         multiValueMapOfScenarioAndStatus.put(scenarioName, executionStatus);
                     }
+                    else{
+                        executionStatus="Failed";
+                        multiValueMapOfScenarioAndStatus.put(scenarioName, executionStatus);
+                    }
                 }
                 //break outerloop;
             }
