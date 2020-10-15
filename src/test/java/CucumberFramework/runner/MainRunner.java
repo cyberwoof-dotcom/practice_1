@@ -11,7 +11,7 @@ import org.testng.annotations.AfterSuite;
    glue = {"CucumberFramework.steps"},
    monochrome = true,
    dryRun = false,
-   tags = {"@sugar_2154,@sugar_2387,@sugar_9999"},
+   tags = {"@sugar_9999"},
    plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json", "com.cucumber.listener.ExtentCucumberFormatter:target/report.html"}
    )
 

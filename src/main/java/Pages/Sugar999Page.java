@@ -8,15 +8,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class Sugar999Page {
+public class Sugar999Page extends BasePage {
 
     WebDriver driver;
 
     public Sugar999Page() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\work\\chromedriver.exe");
-        this.driver = new ChromeDriver();
-        this.driver.manage().window().maximize();
-        this.driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+       driver=initDriver();
     }
 
     public void navigateToCRMLoginPage() throws Exception {

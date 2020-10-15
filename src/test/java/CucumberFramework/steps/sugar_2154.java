@@ -18,7 +18,7 @@ import cucumber.api.java.en.When;
 public class sugar_2154 {
 	
 WebDriver driver;
-@Before
+//@Before
 
 public void setup() {
 System.setProperty("webdriver.chrome.driver", "C:\\Users\\work\\chromedriver.exe");

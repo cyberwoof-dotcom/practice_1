@@ -1,6 +1,5 @@
 @sugar_9999
-Feature: Data Validation of Sugar CRM
-  Description: The purpose of this feature file is to validate data on a SugarCRM screen
+Feature: Data Validation of Sugar CRM ,The purpose of this feature file is to validate data on a SugarCRM screen
 
   Scenario: Extracting User Data from the Screen for fileNumber 2018003393
     Given I navigate to the SugarCRM Login Page
