@@ -93,6 +93,7 @@ public class Sugar999Page extends BasePage {
         driver.findElement(By.xpath("//li[@id='userActions']//button[@class='btn btn-invisible btn-link dropdown-toggle']")).click();
         driver.findElement(By.xpath("//a[text()='Log Out']")).click();
         System.out.println("Test Completed - Logged-out.");
+        driver.quit();
     }
 
 }
