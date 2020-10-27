@@ -3,6 +3,7 @@ package CucumberFramework.steps;
 import Beans.Sugar9999;
 import Pages.Sugar999Page;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
 
 public class sugar_9999 {
 
@@ -17,7 +18,12 @@ public class sugar_9999 {
         sugar999Page.navigateToCRMLoginPage();
     }
 
-    @Given("^I select the Member Files Menu$")
+    @When("^I login using with my userid \"([^\"]*)\" and password \"([^\"]*)\"$")
+    public void enteringUserNameAndPassword(String userName,String password){
+        sugar999Page.loginWithUserNameAndPassword(userName,password);
+    }
+
+    @When("^I select the Member Files Menu$")
     public void i_select_the_Member_Files_Menu() throws Throwable {
         sugar999Page.selectMemberFilesMenu();
     }

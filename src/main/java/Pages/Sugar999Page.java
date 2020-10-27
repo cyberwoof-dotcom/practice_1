@@ -5,6 +5,8 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
@@ -19,6 +21,16 @@ public class Sugar999Page extends BasePage {
     public void navigateToCRMLoginPage() throws Exception {
         Thread.sleep(3000);
         driver.get("https://qlsugqa01.cmpa.org/");
+    }
+
+    public void loginWithUserNameAndPassword(String userid,String password){
+        WebDriverWait wait = new WebDriverWait(driver,30);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='username']")));
+
+        //Login to Sugar...
+        driver.findElement(By.xpath("//input[@name='username']")).sendKeys(userid);
+        driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
+        driver.findElement(By.xpath("//a[@name='login_button']")).click();
     }
 
     public void selectMemberFilesMenu() throws Exception {
