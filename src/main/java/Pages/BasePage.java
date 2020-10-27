@@ -1,5 +1,6 @@
 package Pages;
 
+import Context.ThreadContextForScenarios;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -13,6 +14,8 @@ public class BasePage {
         this.driver = new ChromeDriver();
         this.driver.manage().window().maximize();
         this.driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+        ThreadContextForScenarios.getInstance();
+        ThreadContextForScenarios.setScenarioContext("driver",driver);
         return driver;
     }
 }

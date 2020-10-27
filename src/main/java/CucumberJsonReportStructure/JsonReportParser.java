@@ -93,8 +93,8 @@ public class JsonReportParser {
         String[] featureName=null;
         //outerloop:
         for (JsonReportParser parser : parsers) {
-            if(parser.getUri().contains("FeatureFiles/")) {
-                 featureNamePath = parser.getUri().split("FeatureFiles/");
+            if(parser.getUri().contains("featureFiles/")) {
+                 featureNamePath = parser.getUri().split("featureFiles/");
                  featureName = featureNamePath[1].split(".feature");
             }
             else{
@@ -134,13 +134,13 @@ public class JsonReportParser {
         Map<String,List<String>> map=new LinkedHashMap<>();
         List<JsonReportParser> parsers = getCucumberReportData();
         List<String>scenarios=new LinkedList<>();
-        List<String>totalFeatureFiles=new ArrayList<>();
+        List<String>totalfeatureFiles=new ArrayList<>();
         String[] featureNamePath=null;
         String[] featureName=null;
 
         for (int i=0;i<parsers.size();i++) {
-            if(parsers.get(i).getUri().contains("FeatureFiles/")) {
-                featureNamePath = parsers.get(i).getUri().split("FeatureFiles/");
+            if(parsers.get(i).getUri().contains("featureFiles/")) {
+                featureNamePath = parsers.get(i).getUri().split("featureFiles/");
                 featureName = featureNamePath[1].split(".feature");
             }
             else{
@@ -153,6 +153,24 @@ public class JsonReportParser {
             }
         }
         return scenarios;
+    }
+
+    public List<String>getAllURIInCucumberJson() {
+        List<JsonReportParser> parsers = getCucumberReportData();
+        String[] featureNamePath = null;
+        String[] featureName = null;
+        List<String>listOfURI=new LinkedList<>();
+        for (JsonReportParser parser : parsers) {
+            if (parser.getUri().contains("featureFiles/")) {
+                featureNamePath = parser.getUri().split("featureFiles/");
+                featureName = featureNamePath[1].split(".feature");
+                listOfURI.add(featureName[0]);
+            } else {
+                featureName = parser.getUri().split(".feature");
+                listOfURI.add(featureName[0]);
+            }
+        }
+        return listOfURI;
     }
 
     public static void main(String[] args) {
