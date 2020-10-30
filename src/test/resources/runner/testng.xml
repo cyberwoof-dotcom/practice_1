@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CMPA Data Driven TestRun">
+
+    <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="listeners.CustomListeners"/>
+  	</listeners>
+
+  <test  name="Login To Sugar Test">
+    <classes>
+      <class name="testcases.LoginSugarTest"></class>
+    </classes>
+      </test> <!-- Test --> 
+     <test name="Verify Member Files Test">
+    <classes>
+      <class name="testcases.VerifyFilesTest"></class>
+    </classes>
+  </test> <!-- Test --> 
+  
+     <test name="PublishInTestRail">
+        <classes>
+            <class name="testcases.TestRailPublish"/>
+        </classes>
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->

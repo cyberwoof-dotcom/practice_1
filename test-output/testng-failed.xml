@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CMPA Data Driven TestRun]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="listeners.CustomListeners"/>
+  </listeners>
+  <test name="Verify Member Files Test(failed)">
+    <classes>
+      <class name="testcases.VerifyFilesTest">
+        <methods>
+          <include name="verifyFilesTest" invocation-numbers="3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.VerifyFilesTest -->
+    </classes>
+  </test> <!-- Verify Member Files Test(failed) -->
+</suite> <!-- Failed suite [CMPA Data Driven TestRun] -->
