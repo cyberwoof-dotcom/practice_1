@@ -3,6 +3,7 @@ package CucumberFramework.steps;
 import Beans.Sugar9999;
 import Pages.Sugar999Page;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class sugar_9999 {
@@ -39,6 +40,10 @@ public class sugar_9999 {
         sugar999Page.enterAndVerifyDOO(sugar9999.getDateOfOccurrence());
         sugar999Page.enterAndVerifyCOO();
         sugar999Page.extractAndPrintOfOccurence(sugar9999.getPoo_Code(), sugar9999.getPoo_Name());
+    }
+
+    @Then("^I will mark this test as Complete$")
+    public void markTestCaseAsComplete() throws Exception {
         sugar999Page.markTestCaseComplete();
     }
 
