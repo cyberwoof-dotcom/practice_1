@@ -5,13 +5,12 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.testng.annotations.AfterSuite;
 
-//@RunWith(CucumberT.class)
 @CucumberOptions (
-   features = {"src/test/java/CucumberFramework/featureFiles/sugar_9999.feature"},
+   features = {"src/test/java/CucumberFramework/featureFiles/"},
    glue = {"CucumberFramework.steps"},
    monochrome = true,
    dryRun = false,
-   tags = {"@sugar_9999"},
+   tags = {"@sugar_2154,@sugar_2387"},
    plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json", "com.cucumber.listener.ExtentCucumberFormatter:target/report.html"}
    )
 

@@ -14,20 +14,17 @@ public class Sugar2154Page extends BasePage {
         driver = initDriver();
     }
 
-    public void navigateToCRMLoginPage() throws Exception {
-        Thread.sleep(3000);
-        driver.get("https://qlsugqa01.cmpa.org/");
-    }
+    By eventTypeMemberShip = By.xpath("//*[@id=s2id_autogen1]/a/span[2]");
+    By eventTypeMemberShip1 = By.xpath("//*[@id=\"s2id_autogen1\"]/a/span[2]");
+    By eventTypeMemberShipSearch = By.xpath("//*[@id=\'s2id_autogen2_search\']");
+    By reasonElement = By.xpath("//*[@id=\"s2id_autogen3\"]/a/span[2]");
+    By reasonSearch = By.xpath("//*[@id=\'s2id_autogen4_search\']");
+    By effective_Date = By.name("effective_date_c");
+    By selectMemberElement = By.xpath("//span[contains(text(),'Select Member...')]");
+    By selectMemberElement1 = By.xpath("//*[@id='select2-drop']/ul[2]/li/div");
+    By selectMemberTable = By.xpath(("//table[@class='table table-striped dataTable search-and-select']/tbody/tr[1]"));
+    By saveButton = By.xpath("//a[@name='save_button']");
 
-    public void loginWithUserNameAndPassword(String userid, String password) {
-        WebDriverWait wait = new WebDriverWait(driver, 30);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='username']")));
-
-        //Login to Sugar...
-        driver.findElement(By.xpath("//input[@name='username']")).sendKeys(userid);
-        driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
-        driver.findElement(By.xpath("//a[@name='login_button']")).click();
-    }
 
     public void selectMemberEventsPanel() {
         driver.get("https://qlsugqa01.cmpa.org/#CM_EV_MemberEvents");
@@ -39,46 +36,40 @@ public class Sugar2154Page extends BasePage {
 
     public void selectEventTypeEndMemberShip(String eventtype) {
         WebDriverWait wait = new WebDriverWait(driver, 60);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"s2id_autogen1\"]/a/span[2]")));
-        driver.findElement(By.xpath("//*[@id=\"s2id_autogen1\"]/a/span[2]")).click();
-        driver.findElement(By.xpath("//*[@id=\'s2id_autogen2_search\']")).sendKeys(eventtype);
-        driver.findElement(By.xpath("//*[@id=\'s2id_autogen2_search\']")).sendKeys(Keys.ARROW_DOWN);
-        driver.findElement(By.xpath("//*[@id=\'s2id_autogen2_search\']")).sendKeys(Keys.ENTER);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(eventTypeMemberShip));
+        driver.findElement(eventTypeMemberShip1).click();
+        driver.findElement(eventTypeMemberShipSearch).sendKeys(eventtype);
+        driver.findElement(eventTypeMemberShipSearch).sendKeys(Keys.ARROW_DOWN);
+        driver.findElement(eventTypeMemberShipSearch).sendKeys(Keys.ENTER);
     }
 
     public void selectReason(String reason) throws Exception {
         Thread.sleep(2000);
-        driver.findElement(By.xpath("//*[@id=\"s2id_autogen3\"]/a/span[2]")).click();
-        driver.findElement(By.xpath("//*[@id=\'s2id_autogen4_search\']")).sendKeys(reason);
-        driver.findElement(By.xpath("//*[@id=\'s2id_autogen4_search\']")).sendKeys(Keys.ENTER);
+        driver.findElement(reasonElement).click();
+        driver.findElement(reasonSearch).sendKeys(reason);
+        driver.findElement(reasonSearch).sendKeys(Keys.ENTER);
     }
 
     public void selectEffectiveDate(String effdate) throws Exception {
         Thread.sleep(600);
-        driver.findElement(By.name("effective_date_c")).click();
+        driver.findElement(effective_Date).click();
         Thread.sleep(600);
-        driver.findElement(By.name("effective_date_c")).sendKeys(effdate);
+        driver.findElement(effective_Date).sendKeys(effdate);
     }
 
     public void selectMember(String member) throws Exception {
         WebDriverWait wait = new WebDriverWait(driver, 60);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Select Member...')]")));
-        driver.findElement(By.xpath("//span[contains(text(),'Select Member...')]")).click();
-        driver.findElement(By.xpath("//*[@id='select2-drop']/ul[2]/li/div")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(selectMemberElement));
+        driver.findElement(selectMemberElement).click();
+        driver.findElement(selectMemberElement1).click();
         Thread.sleep(2000);
-        driver.findElement(By.xpath(("//table[@class='table table-striped dataTable search-and-select']/tbody/tr[1]"))).click();
+        driver.findElement(selectMemberTable).click();
     }
 
     public void saveTheDataAndDate() {
         WebDriverWait wait = new WebDriverWait(driver, 60);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@name='save_button']")));
-        driver.findElement(By.xpath("//a[@name='save_button']")).click();
-    }
-
-    public void logOut() throws Exception {
-        Thread.sleep(2000);
-        driver.findElement(By.xpath("//li[@id='userActions']//button[@class='btn btn-invisible btn-link dropdown-toggle']")).click();
-        driver.findElement(By.xpath("//a[text()='Log Out']")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(saveButton));
+        driver.findElement(saveButton).click();
     }
 
 }
