@@ -6,12 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Sugar999Page extends BasePage {
+public class Sugar999Page {
 
     WebDriver driver;
 
-    public Sugar999Page() {
-        driver = initDriver();
+    public Sugar999Page(WebDriver driver) {
+        this.driver = driver;
     }
 
     By searchByName = By.xpath("//input[@placeholder='Search by name...']");

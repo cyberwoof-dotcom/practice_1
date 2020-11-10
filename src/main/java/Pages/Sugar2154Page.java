@@ -6,12 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Sugar2154Page extends BasePage {
+public class Sugar2154Page {
 
     WebDriver driver;
 
-    public Sugar2154Page() {
-        driver = initDriver();
+    public Sugar2154Page(WebDriver driver) {
+        this.driver = driver;
     }
 
     By eventTypeMemberShip = By.xpath("//*[@id=s2id_autogen1]/a/span[2]");

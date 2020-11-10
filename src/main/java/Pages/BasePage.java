@@ -35,12 +35,12 @@ public class BasePage {
         return driver;
     }
 
-    public void navigateToCRMLoginPage() throws Exception {
+    public void navigateToCRMLoginPage(WebDriver driver) throws Exception {
         Thread.sleep(3000);
         driver.get("https://qlsugqa01.cmpa.org/");
     }
 
-    public void loginWithUserNameAndPassword(String userid, String password) {
+    public void loginWithUserNameAndPassword(WebDriver driver,String userid, String password) {
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(userNameElement));
 
@@ -50,14 +50,10 @@ public class BasePage {
         driver.findElement(loginButton).click();
     }
 
-    public void logOut() throws Exception {
+    public void logOut(WebDriver driver) throws Exception {
         Thread.sleep(2000);
         driver.findElement(logoutIcon).click();
         driver.findElement(logout).click();
     }
 
-    public void crmLogin(String userid, String password) throws Exception {
-        navigateToCRMLoginPage();
-        loginWithUserNameAndPassword(userid, password);
-    }
 }

@@ -1,29 +1,34 @@
 package CucumberFramework.steps;
 
+import Pages.BasePage;
 import Pages.Sugar2154Page;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.WebDriver;
 
-public class sugar_2154 {
+public class sugar_2154 extends BasePage {
+
 
     Sugar2154Page sugar2154Page;
+    WebDriver driver;
 
     public sugar_2154() {
-        sugar2154Page = new Sugar2154Page();
+        driver = initDriver();
+        sugar2154Page = new Sugar2154Page(driver);
     }
 
 
     @Given("^I navigate to the SugarCRM QA Website$")
     public void i_navigate_to_the_SugarCRM_QA_Website() throws Exception {
-        sugar2154Page.navigateToCRMLoginPage();
+        navigateToCRMLoginPage(driver);
     }
 
 
     @When("^I login with my username \"([^\"]*)\" and password \"([^\"]*)\"$")
     public void i_login_with_my_username_and_password(String username, String password) {
-        sugar2154Page.loginWithUserNameAndPassword(username, password);
+        loginWithUserNameAndPassword(driver, username, password);
     }
 
     @And("^I select the Member Events Subpanel$")
@@ -63,7 +68,7 @@ public class sugar_2154 {
 
     @And("^I will logout of SugarCRM$")
     public void i_will_logout_of_SugarCRM() throws Exception {
-        sugar2154Page.logOut();
+        logOut(driver);
     }
 }
 

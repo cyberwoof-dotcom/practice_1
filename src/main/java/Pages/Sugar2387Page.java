@@ -9,11 +9,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
-public class Sugar2387Page extends BasePage {
+public class Sugar2387Page {
     WebDriver driver;
 
-    public Sugar2387Page() {
-        driver = initDriver();
+    public Sugar2387Page(WebDriver driver) {
+        this.driver =driver;
     }
 
     By caseNameSearch = By.xpath("//input[@class='search-name']");

@@ -1,27 +1,31 @@
 package CucumberFramework.steps;
 
 import Beans.Sugar9999;
+import Pages.BasePage;
 import Pages.Sugar999Page;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.WebDriver;
 
-public class sugar_9999 {
+public class sugar_9999 extends BasePage {
 
+    WebDriver driver;
     Sugar999Page sugar999Page;
 
     public sugar_9999() {
-        sugar999Page = new Sugar999Page();
+        driver = initDriver();
+        sugar999Page = new Sugar999Page(driver);
     }
 
     @Given("^I navigate to the SugarCRM Login Page$")
     public void i_navigate_to_the_SugarCRM_Login_Page() throws Throwable {
-        sugar999Page.navigateToCRMLoginPage();
+        navigateToCRMLoginPage(driver);
     }
 
     @When("^I login using with my userid \"([^\"]*)\" and password \"([^\"]*)\"$")
-    public void enteringUserNameAndPassword(String userName,String password){
-        sugar999Page.loginWithUserNameAndPassword(userName,password);
+    public void enteringUserNameAndPassword(String userName, String password) {
+        loginWithUserNameAndPassword(driver, userName, password);
     }
 
     @When("^I select the Member Files Menu$")
