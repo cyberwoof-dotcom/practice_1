@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun">
-              <span class="suite-name border-skipped">CMPA Data Driven TestRun</span>
+              <span class="suite-name border-failed">CMPA Data Driven TestRun</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-CMPA_Data_Driven_TestRun">
-                    <span>C:\Users\noy01\Desktop\CMPADataValidationFramework\src\test\resources\runner\testng.xml</span>
+                    <span>C:\CMPADDFramework\practice_1\src\test\resources\runner\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-CMPA_Data_Driven_TestRun">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">26 methods,  21 skipped,  5 passed</span>
+                    <span class="method-stats">59 methods, 1 failed,  57 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CMPA_Data_Driven_TestRun" class="hide-methods failed suite-CMPA_Data_Driven_TestRun"> (hide)</a> <!-- hide-methods failed suite-CMPA_Data_Driven_TestRun -->
+                      <a href="#" panel-name="suite-CMPA_Data_Driven_TestRun" class="show-methods failed suite-CMPA_Data_Driven_TestRun"> (show)</a> <!-- show-methods failed suite-CMPA_Data_Driven_TestRun -->
+                    </span>
+                    <div class="method-list-content failed suite-CMPA_Data_Driven_TestRun">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=Y, CASE_ID=1741746, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=Y, CASE_ID=1741746, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CMPA_Data_Driven_TestRun -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -102,107 +116,287 @@
                     <div class="method-list-content skipped suite-CMPA_Data_Driven_TestRun">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=05/16/2019, DESCR=A 24-year-old female gave birth to a severely...)">verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=05/16/2019, DESCR=A 24-year-old female gave birth to a severely...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3451833, TRIAL_DATE=, STATUS=Ope...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3451833, TRIAL_DATE=, STATUS=Ope...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=A 61-year-old female with mental health issues and chronic pain alleg...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=A 61-year-old female with mental health issues and chronic pain alleg...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3340012, TRIAL_DATE=, STATUS=Ope...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3340012, TRIAL_DATE=, STATUS=Ope...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=10/15/2019, DESCR=A 59-year-old female suffered a torn artery during cardiac ...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=10/15/2019, DESCR=A 59-year-old female suffered a torn artery during cardiac ...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3479222, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3479222, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=10/08/2020, DESCR=A 54-year-old male shipper-receiver with chronic back pain ...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=10/08/2020, DESCR=A 54-year-old male shipper-receiver with chronic back pain ...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3406643, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3406643, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID=Susan Clark, CLOSED_DATE=04/03/2019, DESCR=A 46-year-old female with a past history of depre...)">verifyFilesTest({CMA_ID=Susan Clark, CLOSED_DATE=04/03/2019, DESCR=A 46-year-old female with a past history of depre...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1813803, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1813803, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=05/28/2020, DESCR=A 66-year-old male died following a routine h...)">verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=05/28/2020, DESCR=A 66-year-old male died following a routine h...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2981425, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2981425, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=10/25/2019, DESCR=A 56-year-old male with chronic pain did not like his famil...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=10/25/2019, DESCR=A 56-year-old male with chronic pain did not like his famil...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3391590, TRIAL_DATE=, STATUS=Ope...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3391590, TRIAL_DATE=, STATUS=Ope...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=12/05/2018, DESCR=A man in his 20’s received a prescription for his skin trea...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=12/05/2018, DESCR=A man in his 20’s received a prescription for his skin trea...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2073273, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2073273, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 42-year-old female was treated for cellulitis and gou...)">verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 42-year-old female was treated for cellulitis and gou...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667606, TRIAL_DATE=, STATUS=Ope...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667606, TRIAL_DATE=, STATUS=Ope...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=RAMQ onco - Billing matter - Quebec haematologist., RUNMODE=N, ML_FIL...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=RAMQ onco - Billing matter - Quebec haematologist., RUNMODE=N, ML_FIL...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2024921, TRIAL_DATE=, STATUS=Ope...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2024921, TRIAL_DATE=, STATUS=Ope...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=S-IMPRO – A 55-year-old female alleged inappropriate touching during ...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=S-IMPRO – A 55-year-old female alleged inappropriate touching during ...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3392711, TRIAL_DATE=, STATUS=Ope...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3392711, TRIAL_DATE=, STATUS=Ope...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 34-year-old pregnant female was involved in an MVA an...)">verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 34-year-old pregnant female was involved in an MVA an...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3668368, TRIAL_DATE=, STATUS=Ope...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3668368, TRIAL_DATE=, STATUS=Ope...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=03/05/2019, DESCR=A group of urologists wished to improve communication with ...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=03/05/2019, DESCR=A group of urologists wished to improve communication with ...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1540801, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1540801, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=02/10/2020, DESCR=A 60-year-old female with hearing loss wanted her physician...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=02/10/2020, DESCR=A 60-year-old female with hearing loss wanted her physician...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3300433, TRIAL_DATE=, STATUS=Ope...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3300433, TRIAL_DATE=, STATUS=Ope...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=06/12/2018, DESCR=Cocaine was found in a 37-year-old male&#039;s random urine test...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=06/12/2018, DESCR=Cocaine was found in a 37-year-old male's random urine test...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3327893, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3327893, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=03/04/2020, DESCR=IPC - A forensic psychiatrist&#039;s facial expression was chara...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=03/04/2020, DESCR=IPC - A forensic psychiatrist's facial expression was chara...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3520547, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3520547, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=08/29/2019, DESCR=A 67-year-old female with Alzheimer’s disease had a progres...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=08/29/2019, DESCR=A 67-year-old female with Alzheimer’s disease had a progres...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1537565, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1537565, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID=Kelly Gage, CLOSED_DATE=, DESCR=A seven-month-old female experienced a delayed diagnosis of ...)">verifyFilesTest({CMA_ID=Kelly Gage, CLOSED_DATE=, DESCR=A seven-month-old female experienced a delayed diagnosis of ...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3415610, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3415610, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=02/16/2018, DESCR=A 55-year-old male suffered persistent neck and arm pain fo...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=02/16/2018, DESCR=A 55-year-old male suffered persistent neck and arm pain fo...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3465599, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3465599, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=04/20/2018, DESCR=A pediatric resident was required by her program director t...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=04/20/2018, DESCR=A pediatric resident was required by her program director t...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1810783, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1810783, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=S-IMPRO - An eight-year-old female treated for diarrhea...)">verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=S-IMPRO - An eight-year-old female treated for diarrhea...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1919844, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1919844, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3471819, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3471819, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3532998, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3532998, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3218035, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3218035, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3428917, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3428917, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1920614, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1920614, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3127239, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3127239, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2103702, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2103702, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1699864, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1699864, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3518560, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3518560, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3242804, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3242804, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3234004, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3234004, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921423, TRIAL_DATE=, STATUS=Ope...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921423, TRIAL_DATE=, STATUS=Ope...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2377312, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2377312, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3277685, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3277685, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1542219, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1542219, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2414313, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2414313, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595373, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595373, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1811901, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1811901, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2874184, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2874184, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921431, TRIAL_DATE=, STATUS=Ope...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921431, TRIAL_DATE=, STATUS=Ope...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1602612, TRIAL_DATE=6/8/15, STAT...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1602612, TRIAL_DATE=6/8/15, STAT...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2013644, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2013644, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3152758, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3152758, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3169330, TRIAL_DATE=, STATUS=Ope...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3169330, TRIAL_DATE=, STATUS=Ope...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2256233, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2256233, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667588, TRIAL_DATE=, STATUS=Ope...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667588, TRIAL_DATE=, STATUS=Ope...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1541651, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1541651, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2359725, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2359725, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3473558, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3473558, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1973738, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1973738, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3140334, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3140334, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595269, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595269, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1636782, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1636782, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3125108, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3125108, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2443685, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2443685, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyMLFilesTest" hash-for-method="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2753634, TRIAL_DATE=, STATUS=Clo...)">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2753634, TRIAL_DATE=, STATUS=Clo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-CMPA_Data_Driven_TestRun -->
@@ -219,26 +413,6 @@
                         <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.LoginSugarTest" hash-for-method="loginSugarTest">loginSugarTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.TestRailPublish" hash-for-method="publishInTestRail">publishInTestRail</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=01/10/2020, DESCR=A FP received a complaint alleging that he failed to abide ...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=01/10/2020, DESCR=A FP received a complaint alleging that he failed to abide ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=02/12/2018, DESCR=EOL - A 64-year-old male with ALS requested MAiD., RUNMODE=...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=02/12/2018, DESCR=EOL - A 64-year-old male with ALS requested MAiD., RUNMODE=...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CMPA_Data_Driven_TestRun" title="testcases.VerifyFilesTest" hash-for-method="verifyFilesTest({CMA_ID= , CLOSED_DATE=03/04/2019, DESCR=S-IMPRO - A 60-year-old female with chronic pain disclosed ...)">verifyFilesTest({CMA_ID= , CLOSED_DATE=03/04/2019, DESCR=S-IMPRO - A 60-year-old female with chronic pain disclosed ...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-CMPA_Data_Driven_TestRun -->
                   </li>
                 </ul>
@@ -251,261 +425,713 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-CMPA_Data_Driven_TestRun" class="panel CMPA_Data_Driven_TestRun">
-          <div class="suite-CMPA_Data_Driven_TestRun-class-skipped">
+          <div class="suite-CMPA_Data_Driven_TestRun-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">testcases.VerifyFilesTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">testcases.VerifyMLFilesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=05/16/2019, DESCR=A 24-year-old female gave birth to a severely...)">
-                  </a> <!-- verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=05/16/2019, DESCR=A 24-year-old female gave birth to a severely...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID=Christine Teske, CLOSED_DATE=05/16/2019, DESCR=A 24-year-old female gave birth to a severely compromised female infant after a prolonged second stage., RUNMODE=N, ML_FILE_TYPE=HS1, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2009001208, COO=Oshawa, LAST_UPDATED=01/30/2020, CREATION_DATE=01/26/2009, DOO=01/25/2009})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
-... Removed 25 stack frames
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=Y, CASE_ID=1741746, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=Y, CASE_ID=1741746, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=Y, CASE_ID=1741746, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=06/28/2010, ML_FILE_ID=2009000711, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=07/22/2010, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:224)
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CMPA_Data_Driven_TestRun-class-failed -->
+          <div class="suite-CMPA_Data_Driven_TestRun-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.VerifyMLFilesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=A 61-year-old female with mental health issues and chronic pain alleg...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=A 61-year-old female with mental health issues and chronic pain alleg...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=, DESCR=A 61-year-old female with mental health issues and chronic pain alleged inappropriate care by multiple physicians., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Caroline Ehrat, POO=ON - Ontario, ML_FILE_ID=2016001057, COO=Toronto, LAST_UPDATED=01/30/2020, CREATION_DATE=01/15/2016, DOO=01/01/2002})</span>
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3451833, TRIAL_DATE=, STATUS=Ope...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3451833, TRIAL_DATE=, STATUS=Ope...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3451833, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=02/01/2019, ML_FILE_ID=2019002703, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0})</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=10/15/2019, DESCR=A 59-year-old female suffered a torn artery during cardiac ...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=10/15/2019, DESCR=A 59-year-old female suffered a torn artery during cardiac ...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=10/15/2019, DESCR=A 59-year-old female suffered a torn artery during cardiac catheterization., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Christopher Canny, POO=ON - Ontario, ML_FILE_ID=2012001197, COO=Windsor, LAST_UPDATED=01/30/2020, CREATION_DATE=01/20/2012, DOO=01/19/2012})</span>
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3340012, TRIAL_DATE=, STATUS=Ope...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3340012, TRIAL_DATE=, STATUS=Ope...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3340012, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=07/25/2018, ML_FILE_ID=2016001057, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0})</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=10/08/2020, DESCR=A 54-year-old male shipper-receiver with chronic back pain ...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=10/08/2020, DESCR=A 54-year-old male shipper-receiver with chronic back pain ...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=10/08/2020, DESCR=A 54-year-old male shipper-receiver with chronic back pain following a workplace injury was judged to have no psychiatric disability., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2019014064, COO=Toronto, LAST_UPDATED=10/08/2020, CREATION_DATE=06/03/2019, DOO=09/01/2011})</span>
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3479222, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3479222, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3479222, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=03/13/2019, ML_FILE_ID=2019005842, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=11/28/2019, JURY=0.0, DELETED=0.0})</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID=Susan Clark, CLOSED_DATE=04/03/2019, DESCR=A 46-year-old female with a past history of depre...)">
-                  </a> <!-- verifyFilesTest({CMA_ID=Susan Clark, CLOSED_DATE=04/03/2019, DESCR=A 46-year-old female with a past history of depre...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID=Susan Clark, CLOSED_DATE=04/03/2019, DESCR=A 46-year-old female with a past history of depression and malignant hyperthermia alleged that she experienced awareness and excruciating pain during a laparoscopic robotic-assisted hysterectomy for malignancy., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Maria Bukowskyj, POO=ON - Ontario, ML_FILE_ID=2009000711, COO=Toronto, LAST_UPDATED=01/30/2020, CREATION_DATE=01/16/2009, DOO=12/15/2008})</span>
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3406643, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3406643, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3406643, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=11/21/2018, ML_FILE_ID=2013019118, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=06/20/2019, JURY=0.0, DELETED=0.0})</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=05/28/2020, DESCR=A 66-year-old male died following a routine h...)">
-                  </a> <!-- verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=05/28/2020, DESCR=A 66-year-old male died following a routine h...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID=Christine Teske, CLOSED_DATE=05/28/2020, DESCR=A 66-year-old male died following a routine hemicolectomy., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2017000276, COO=Orillia, LAST_UPDATED=05/29/2020, CREATION_DATE=01/05/2017, DOO=10/24/2016})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=10/25/2019, DESCR=A 56-year-old male with chronic pain did not like his famil...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=10/25/2019, DESCR=A 56-year-old male with chronic pain did not like his famil...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=10/25/2019, DESCR=A 56-year-old male with chronic pain did not like his family physician’s approach to narcotic prescribing., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2018016001, COO=Brampton, LAST_UPDATED=01/30/2020, CREATION_DATE=07/05/2018, DOO=08/12/2016})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=12/05/2018, DESCR=A man in his 20’s received a prescription for his skin trea...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=12/05/2018, DESCR=A man in his 20’s received a prescription for his skin trea...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=12/05/2018, DESCR=A man in his 20’s received a prescription for his skin treatment in another patient’s name., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Shena Riff, POO=ON - Ontario, ML_FILE_ID=2.018028506E9, COO=Merrickville, LAST_UPDATED=01/30/2020, CREATION_DATE=12/04/2018, DOO=01/01/2018})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 42-year-old female was treated for cellulitis and gou...)">
-                  </a> <!-- verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 42-year-old female was treated for cellulitis and gou...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 42-year-old female was treated for cellulitis and gout but ultimately required an amputation., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2016021772, COO=Kenora, LAST_UPDATED=09/09/2020, CREATION_DATE=10/19/2016, DOO=05/23/2014})</span>
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1813803, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1813803, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1813803, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=03/06/2009, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=08/21/2014, JURY=0.0, DELETED=0.0})</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=RAMQ onco - Billing matter - Quebec haematologist., RUNMODE=N, ML_FIL...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=RAMQ onco - Billing matter - Quebec haematologist., RUNMODE=N, ML_FIL...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=, DESCR=RAMQ onco - Billing matter - Quebec haematologist., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Yolanda Madarnas, POO=QC - Quebec, ML_FILE_ID=2019002703, COO=Côte-Saint-Luc, LAST_UPDATED=01/30/2020, CREATION_DATE=01/30/2019, DOO=01/01/2018})</span>
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2981425, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2981425, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2981425, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/05/2017, ML_FILE_ID=2017000276, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/25/2017, JURY=0.0, DELETED=0.0})</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=S-IMPRO – A 55-year-old female alleged inappropriate touching during ...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=S-IMPRO – A 55-year-old female alleged inappropriate touching during ...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=, DESCR=S-IMPRO – A 55-year-old female alleged inappropriate touching during a post-operative assessment of her vulva following excision of a benign cyst., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2018030076, COO=Toronto, LAST_UPDATED=04/03/2020, CREATION_DATE=12/20/2018, DOO=12/19/2018})</span>
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3391590, TRIAL_DATE=, STATUS=Ope...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3391590, TRIAL_DATE=, STATUS=Ope...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3391590, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=11/05/2018, ML_FILE_ID=2014012732, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0})</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 34-year-old pregnant female was involved in an MVA an...)">
-                  </a> <!-- verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 34-year-old pregnant female was involved in an MVA an...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 34-year-old pregnant female was involved in an MVA and later delivered a male infant with neurologic compromise., RUNMODE=N, ML_FILE_TYPE=HS1, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2014012732, COO=Ottawa, LAST_UPDATED=08/11/2020, CREATION_DATE=07/11/2014, DOO=05/21/2014})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=03/05/2019, DESCR=A group of urologists wished to improve communication with ...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=03/05/2019, DESCR=A group of urologists wished to improve communication with ...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=03/05/2019, DESCR=A group of urologists wished to improve communication with the chief of surgery., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2014008597, COO=Sault Ste. Marie, LAST_UPDATED=01/30/2020, CREATION_DATE=05/07/2014, DOO=02/23/2018})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=02/10/2020, DESCR=A 60-year-old female with hearing loss wanted her physician...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=02/10/2020, DESCR=A 60-year-old female with hearing loss wanted her physician...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=02/10/2020, DESCR=A 60-year-old female with hearing loss wanted her physician to remove her mask while speaking., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2019005842, COO=Lucan, LAST_UPDATED=02/11/2020, CREATION_DATE=03/01/2019, DOO=10/23/2018})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=06/12/2018, DESCR=Cocaine was found in a 37-year-old male&#039;s random urine test...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=06/12/2018, DESCR=Cocaine was found in a 37-year-old male's random urine test...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=06/12/2018, DESCR=Cocaine was found in a 37-year-old male's random urine test., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=James Kissick, POO=ON - Ontario, ML_FILE_ID=2016014912, COO=Lively, LAST_UPDATED=01/30/2020, CREATION_DATE=07/13/2016, DOO=07/13/2016})</span>
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2073273, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2073273, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2073273, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=09/10/2012, ML_FILE_ID=2012001197, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=10/15/2019, JURY=0.0, DELETED=0.0})</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=03/04/2020, DESCR=IPC - A forensic psychiatrist&#039;s facial expression was chara...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=03/04/2020, DESCR=IPC - A forensic psychiatrist's facial expression was chara...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=03/04/2020, DESCR=IPC - A forensic psychiatrist's facial expression was characterized as dismissive by another staff member., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2019005554, COO=London, LAST_UPDATED=03/04/2020, CREATION_DATE=02/27/2019, DOO=03/04/2018})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=08/29/2019, DESCR=A 67-year-old female with Alzheimer’s disease had a progres...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=08/29/2019, DESCR=A 67-year-old female with Alzheimer’s disease had a progres...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=08/29/2019, DESCR=A 67-year-old female with Alzheimer’s disease had a progression of her cognitive problems., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2012020140, COO=Scarborough, LAST_UPDATED=01/30/2020, CREATION_DATE=11/23/2012, DOO=02/01/2009})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID=Kelly Gage, CLOSED_DATE=, DESCR=A seven-month-old female experienced a delayed diagnosis of ...)">
-                  </a> <!-- verifyFilesTest({CMA_ID=Kelly Gage, CLOSED_DATE=, DESCR=A seven-month-old female experienced a delayed diagnosis of ...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID=Kelly Gage, CLOSED_DATE=, DESCR=A seven-month-old female experienced a delayed diagnosis of hydrocephaly., RUNMODE=N, ML_FILE_TYPE=HS1, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Julie Jenner, POO=ON - Ontario, ML_FILE_ID=2009014568, COO=Ottawa, LAST_UPDATED=09/30/2020, CREATION_DATE=10/16/2018, DOO=01/02/2009})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=02/16/2018, DESCR=A 55-year-old male suffered persistent neck and arm pain fo...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=02/16/2018, DESCR=A 55-year-old male suffered persistent neck and arm pain fo...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=02/16/2018, DESCR=A 55-year-old male suffered persistent neck and arm pain following an MVA., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2012007319, COO=Sudbury, LAST_UPDATED=01/30/2020, CREATION_DATE=04/23/2012, DOO=01/17/2011})</span>
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667606, TRIAL_DATE=, STATUS=Ope...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667606, TRIAL_DATE=, STATUS=Ope...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667606, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/28/2019, ML_FILE_ID=2018030076, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0})</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=04/20/2018, DESCR=A pediatric resident was required by her program director t...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=04/20/2018, DESCR=A pediatric resident was required by her program director t...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=04/20/2018, DESCR=A pediatric resident was required by her program director to go on medical leave., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Robert Johnston, POO=ON - Ontario, ML_FILE_ID=2018009406, COO=London, LAST_UPDATED=01/30/2020, CREATION_DATE=04/19/2018, DOO=04/20/2018})</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
 ... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=S-IMPRO - An eight-year-old female treated for diarrhea...)">
-                  </a> <!-- verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=S-IMPRO - An eight-year-old female treated for diarrhea...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=S-IMPRO - An eight-year-old female treated for diarrhea made an allegation of sexual impropriety many years later., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2018012407, COO=Toronto, LAST_UPDATED=01/23/2020, CREATION_DATE=05/23/2018, DOO=06/27/1980})</span>
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2024921, TRIAL_DATE=, STATUS=Ope...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2024921, TRIAL_DATE=, STATUS=Ope...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2024921, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=05/17/2012, ML_FILE_ID=2012001197, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0})</span>
                   <div class="stack-trace">org.testng.SkipException: Skipping test.
-	at testcases.VerifyFilesTest.verifyFilesTest(VerifyFilesTest.java:30)
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3392711, TRIAL_DATE=, STATUS=Ope...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3392711, TRIAL_DATE=, STATUS=Ope...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3392711, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=11/05/2018, ML_FILE_ID=2014012732, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3668368, TRIAL_DATE=, STATUS=Ope...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3668368, TRIAL_DATE=, STATUS=Ope...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3668368, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/20/2020, ML_FILE_ID=2018030076, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1540801, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1540801, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1540801, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/28/2009, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/28/2009, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
 ... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3300433, TRIAL_DATE=, STATUS=Ope...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3300433, TRIAL_DATE=, STATUS=Ope...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3300433, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=05/24/2018, ML_FILE_ID=2018012407, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3327893, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3327893, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3327893, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=07/05/2018, ML_FILE_ID=2018016001, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=10/25/2019, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3520547, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3520547, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3520547, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=05/14/2019, ML_FILE_ID=2017000276, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=05/28/2020, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1537565, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1537565, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1537565, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/16/2009, ML_FILE_ID=2009000711, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/20/2009, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3415610, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3415610, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3415610, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=12/05/2018, ML_FILE_ID=2018028506, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=12/05/2018, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3465599, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3465599, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3465599, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=02/20/2019, ML_FILE_ID=2019004846, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=02/20/2019, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1810783, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1810783, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1810783, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=12/20/2010, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=07/13/2011, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1919844, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1919844, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1919844, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=09/12/2011, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=09/16/2013, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3471819, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3471819, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3471819, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=02/28/2019, ML_FILE_ID=2019005554, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=03/04/2020, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3532998, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3532998, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3532998, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=06/03/2019, ML_FILE_ID=2019014064, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=10/08/2020, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3218035, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3218035, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3218035, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/22/2018, ML_FILE_ID=2016014912, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=06/12/2018, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3428917, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3428917, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3428917, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=12/20/2018, ML_FILE_ID=2018030076, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=04/02/2020, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1920614, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1920614, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1920614, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=09/13/2011, ML_FILE_ID=2009014568, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/15/2019, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3127239, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3127239, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3127239, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=08/16/2017, ML_FILE_ID=2012020140, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=08/16/2017, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2103702, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2103702, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2103702, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=11/22/2012, ML_FILE_ID=2012020140, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=02/02/2015, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1699864, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1699864, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1699864, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=03/19/2010, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=09/12/2011, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3518560, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3518560, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3518560, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=05/10/2019, ML_FILE_ID=2017000276, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=05/28/2020, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3242804, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3242804, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3242804, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=02/23/2018, ML_FILE_ID=2014008597, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=03/05/2019, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3234004, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3234004, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3234004, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=02/12/2018, ML_FILE_ID=2018003393, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=02/12/2018, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921423, TRIAL_DATE=, STATUS=Ope...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921423, TRIAL_DATE=, STATUS=Ope...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921423, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=10/20/2016, ML_FILE_ID=2016021772, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2377312, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2377312, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2377312, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=05/07/2014, ML_FILE_ID=2014008597, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=05/08/2014, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3277685, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3277685, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3277685, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=04/20/2018, ML_FILE_ID=2018009406, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=04/20/2018, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1542219, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1542219, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1542219, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/29/2009, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=07/19/2018, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2414313, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2414313, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2414313, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=07/11/2014, ML_FILE_ID=2014012732, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=03/27/2015, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595373, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595373, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595373, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=06/16/2009, ML_FILE_ID=2009000711, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=08/31/2009, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1811901, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1811901, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1811901, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=1.3E7, DATE_OPENED=12/20/2010, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=1.35E7, APPEALED=, DATE_CLOSED=05/16/2019, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2874184, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2874184, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2874184, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=07/13/2016, ML_FILE_ID=2016014912, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=07/14/2016, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921431, TRIAL_DATE=, STATUS=Ope...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921431, TRIAL_DATE=, STATUS=Ope...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921431, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=10/21/2016, ML_FILE_ID=2016021772, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1602612, TRIAL_DATE=6/8/15, STAT...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1602612, TRIAL_DATE=6/8/15, STAT...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1602612, TRIAL_DATE=6/8/15, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=550000.0, DATE_OPENED=06/30/2009, ML_FILE_ID=2009000711, DATE_CREATE=, TOTAL_DAMAGES=550000.0, APPEALED=, DATE_CLOSED=04/03/2019, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2013644, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2013644, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2013644, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=04/24/2012, ML_FILE_ID=2012007319, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=05/15/2014, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3152758, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3152758, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3152758, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=10/11/2017, ML_FILE_ID=2016014912, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=06/12/2018, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3169330, TRIAL_DATE=, STATUS=Ope...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3169330, TRIAL_DATE=, STATUS=Ope...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3169330, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=12/01/2017, ML_FILE_ID=2009014568, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2256233, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2256233, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2256233, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=10/31/2013, ML_FILE_ID=2013019118, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=08/29/2016, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667588, TRIAL_DATE=, STATUS=Ope...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667588, TRIAL_DATE=, STATUS=Ope...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667588, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/28/2019, ML_FILE_ID=2018030076, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1541651, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1541651, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1541651, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/29/2009, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2359725, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2359725, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2359725, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=03/25/2014, ML_FILE_ID=2013019118, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/10/2020, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3473558, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3473558, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3473558, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=03/04/2019, ML_FILE_ID=2019005842, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=02/10/2020, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1973738, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1973738, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1973738, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/20/2012, ML_FILE_ID=2012001197, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=03/20/2014, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3140334, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3140334, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3140334, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=09/13/2017, ML_FILE_ID=2012020140, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=08/29/2019, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595269, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595269, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595269, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=05/16/2017, ML_FILE_ID=2009000711, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=08/23/2018, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1636782, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1636782, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1636782, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=10/16/2009, ML_FILE_ID=2009014568, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=06/11/2010, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3125108, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3125108, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3125108, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=08/10/2017, ML_FILE_ID=2012007319, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=02/16/2018, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2443685, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2443685, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2443685, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=09/11/2014, ML_FILE_ID=2012001197, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/18/2016, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2753634, TRIAL_DATE=, STATUS=Clo...)">
+                  </a> <!-- verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2753634, TRIAL_DATE=, STATUS=Clo...) -->
+                  <span class="method-name">verifyMLFilesTest</span>
+                  <span class="parameters">({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2753634, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/18/2016, ML_FILE_ID=2016001057, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/18/2016, JURY=0.0, DELETED=0.0})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping test.
+	at testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:32)
+... Removed 24 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -526,57 +1152,10 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-CMPA_Data_Driven_TestRun-class-passed -->
-          <div class="suite-CMPA_Data_Driven_TestRun-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.VerifyFilesTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=01/10/2020, DESCR=A FP received a complaint alleging that he failed to abide ...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=01/10/2020, DESCR=A FP received a complaint alleging that he failed to abide ...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=01/10/2020, DESCR=A FP received a complaint alleging that he failed to abide by a previous Undertaking., RUNMODE=Y, ML_FILE_TYPE=, GENERAL_COUNSEL=Ms. Donna Lawson, STATUS=Closed, ASSIGNED_TO=Shena Riff, POO=AB - Alberta, ML_FILE_ID=2013019118, COO=Cochrane, LAST_UPDATED=01/30/2020, CREATION_DATE=10/30/2013, DOO=10/11/2013})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=02/12/2018, DESCR=EOL - A 64-year-old male with ALS requested MAiD., RUNMODE=...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=02/12/2018, DESCR=EOL - A 64-year-old male with ALS requested MAiD., RUNMODE=...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=02/12/2018, DESCR=EOL - A 64-year-old male with ALS requested MAiD., RUNMODE=Y, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Dennis Desai, POO=MB - Manitoba, ML_FILE_ID=2018003393, COO=Winnipeg, LAST_UPDATED=01/30/2020, CREATION_DATE=02/09/2018, DOO=01/01/2018})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFilesTest({CMA_ID= , CLOSED_DATE=03/04/2019, DESCR=S-IMPRO - A 60-year-old female with chronic pain disclosed ...)">
-                  </a> <!-- verifyFilesTest({CMA_ID= , CLOSED_DATE=03/04/2019, DESCR=S-IMPRO - A 60-year-old female with chronic pain disclosed ...) -->
-                  <span class="method-name">verifyFilesTest</span>
-                  <span class="parameters">({CMA_ID= , CLOSED_DATE=03/04/2019, DESCR=S-IMPRO - A 60-year-old female with chronic pain disclosed that she accepted a social invitation to dinner by a podiatrist and that she was uncomfortable when he attempted to kiss her., RUNMODE=Y, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Shena Riff, POO=AB - Alberta, ML_FILE_ID=2019004846, COO=Fort McMurray, LAST_UPDATED=01/30/2020, CREATION_DATE=02/20/2019, DOO=01/01/2019})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CMPA_Data_Driven_TestRun-class-passed -->
-          <div class="suite-CMPA_Data_Driven_TestRun-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TestRailPublish</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="publishInTestRail">
-                  </a> <!-- publishInTestRail -->
-                  <span class="method-name">publishInTestRail</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CMPA_Data_Driven_TestRun-class-passed -->
         </div> <!-- panel CMPA_Data_Driven_TestRun -->
         <div panel-name="test-xml-CMPA_Data_Driven_TestRun" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\noy01\Desktop\CMPADataValidationFramework\src\test\resources\runner\testng.xml</span>
+            <span class="header-content">C:\CMPADDFramework\practice_1\src\test\resources\runner\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -593,16 +1172,11 @@
       &lt;class name=&quot;testcases.LoginSugarTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login To Sugar Test --&gt;
-  &lt;test name=&quot;Verify Member Files Test&quot;&gt;
+  &lt;test name=&quot;Verify ML Case Files Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.VerifyFilesTest&quot;/&gt;
+      &lt;class name=&quot;testcases.VerifyMLFilesTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Verify Member Files Test --&gt;
-  &lt;test name=&quot;PublishInTestRail&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testcases.TestRailPublish&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- PublishInTestRail --&gt;
+  &lt;/test&gt; &lt;!-- Verify ML Case Files Test --&gt;
 &lt;/suite&gt; &lt;!-- CMPA Data Driven TestRun --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -617,10 +1191,7 @@
                 <span class="test-name">Login To Sugar Test (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Verify Member Files Test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">PublishInTestRail (1 class)</span>
+                <span class="test-name">Verify ML Case Files Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -646,116 +1217,248 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(26);
+data.addRows(59);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyFilesTest')
-data.setCell(0, 2, 'testcases.VerifyFilesTest')
-data.setCell(0, 3, 5017);
+data.setCell(0, 1, 'verifyMLFilesTest')
+data.setCell(0, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(0, 3, 3752);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyFilesTest')
-data.setCell(1, 2, 'testcases.VerifyFilesTest')
-data.setCell(1, 3, 4379);
+data.setCell(1, 1, 'loginSugarTest')
+data.setCell(1, 2, 'testcases.LoginSugarTest')
+data.setCell(1, 3, 3129);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyFilesTest')
-data.setCell(2, 2, 'testcases.VerifyFilesTest')
-data.setCell(2, 3, 4291);
+data.setCell(2, 1, 'verifyMLFilesTest')
+data.setCell(2, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(2, 3, 2);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginSugarTest')
-data.setCell(3, 2, 'testcases.LoginSugarTest')
-data.setCell(3, 3, 3019);
+data.setCell(3, 1, 'verifyMLFilesTest')
+data.setCell(3, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(3, 3, 2);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'publishInTestRail')
-data.setCell(4, 2, 'testcases.TestRailPublish')
-data.setCell(4, 3, 1671);
+data.setCell(4, 1, 'verifyMLFilesTest')
+data.setCell(4, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyFilesTest')
-data.setCell(5, 2, 'testcases.VerifyFilesTest')
-data.setCell(5, 3, 2);
+data.setCell(5, 1, 'verifyMLFilesTest')
+data.setCell(5, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyFilesTest')
-data.setCell(6, 2, 'testcases.VerifyFilesTest')
-data.setCell(6, 3, 2);
+data.setCell(6, 1, 'verifyMLFilesTest')
+data.setCell(6, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(6, 3, 1);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyFilesTest')
-data.setCell(7, 2, 'testcases.VerifyFilesTest')
-data.setCell(7, 3, 2);
+data.setCell(7, 1, 'verifyMLFilesTest')
+data.setCell(7, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(7, 3, 1);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyFilesTest')
-data.setCell(8, 2, 'testcases.VerifyFilesTest')
-data.setCell(8, 3, 2);
+data.setCell(8, 1, 'verifyMLFilesTest')
+data.setCell(8, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(8, 3, 1);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyFilesTest')
-data.setCell(9, 2, 'testcases.VerifyFilesTest')
-data.setCell(9, 3, 2);
+data.setCell(9, 1, 'verifyMLFilesTest')
+data.setCell(9, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(9, 3, 1);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyFilesTest')
-data.setCell(10, 2, 'testcases.VerifyFilesTest')
+data.setCell(10, 1, 'verifyMLFilesTest')
+data.setCell(10, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(10, 3, 1);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyFilesTest')
-data.setCell(11, 2, 'testcases.VerifyFilesTest')
+data.setCell(11, 1, 'verifyMLFilesTest')
+data.setCell(11, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(11, 3, 1);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyFilesTest')
-data.setCell(12, 2, 'testcases.VerifyFilesTest')
+data.setCell(12, 1, 'verifyMLFilesTest')
+data.setCell(12, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(12, 3, 1);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'verifyFilesTest')
-data.setCell(13, 2, 'testcases.VerifyFilesTest')
+data.setCell(13, 1, 'verifyMLFilesTest')
+data.setCell(13, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(13, 3, 1);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifyFilesTest')
-data.setCell(14, 2, 'testcases.VerifyFilesTest')
+data.setCell(14, 1, 'verifyMLFilesTest')
+data.setCell(14, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(14, 3, 1);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'verifyFilesTest')
-data.setCell(15, 2, 'testcases.VerifyFilesTest')
+data.setCell(15, 1, 'verifyMLFilesTest')
+data.setCell(15, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(15, 3, 1);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'verifyFilesTest')
-data.setCell(16, 2, 'testcases.VerifyFilesTest')
+data.setCell(16, 1, 'verifyMLFilesTest')
+data.setCell(16, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(16, 3, 1);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'verifyFilesTest')
-data.setCell(17, 2, 'testcases.VerifyFilesTest')
+data.setCell(17, 1, 'verifyMLFilesTest')
+data.setCell(17, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(17, 3, 1);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'verifyFilesTest')
-data.setCell(18, 2, 'testcases.VerifyFilesTest')
+data.setCell(18, 1, 'verifyMLFilesTest')
+data.setCell(18, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(18, 3, 1);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'verifyFilesTest')
-data.setCell(19, 2, 'testcases.VerifyFilesTest')
+data.setCell(19, 1, 'verifyMLFilesTest')
+data.setCell(19, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(19, 3, 1);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'verifyFilesTest')
-data.setCell(20, 2, 'testcases.VerifyFilesTest')
+data.setCell(20, 1, 'verifyMLFilesTest')
+data.setCell(20, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(20, 3, 1);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'verifyFilesTest')
-data.setCell(21, 2, 'testcases.VerifyFilesTest')
+data.setCell(21, 1, 'verifyMLFilesTest')
+data.setCell(21, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(21, 3, 1);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'verifyFilesTest')
-data.setCell(22, 2, 'testcases.VerifyFilesTest')
+data.setCell(22, 1, 'verifyMLFilesTest')
+data.setCell(22, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(22, 3, 1);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'verifyFilesTest')
-data.setCell(23, 2, 'testcases.VerifyFilesTest')
+data.setCell(23, 1, 'verifyMLFilesTest')
+data.setCell(23, 2, 'testcases.VerifyMLFilesTest')
 data.setCell(23, 3, 1);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'verifyFilesTest')
-data.setCell(24, 2, 'testcases.VerifyFilesTest')
-data.setCell(24, 3, 0);
+data.setCell(24, 1, 'verifyMLFilesTest')
+data.setCell(24, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(24, 3, 1);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'verifyFilesTest')
-data.setCell(25, 2, 'testcases.VerifyFilesTest')
-data.setCell(25, 3, 0);
+data.setCell(25, 1, 'verifyMLFilesTest')
+data.setCell(25, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyMLFilesTest')
+data.setCell(26, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyMLFilesTest')
+data.setCell(27, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyMLFilesTest')
+data.setCell(28, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyMLFilesTest')
+data.setCell(29, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyMLFilesTest')
+data.setCell(30, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyMLFilesTest')
+data.setCell(31, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(31, 3, 1);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyMLFilesTest')
+data.setCell(32, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(32, 3, 1);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyMLFilesTest')
+data.setCell(33, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(33, 3, 1);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyMLFilesTest')
+data.setCell(34, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(34, 3, 1);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifyMLFilesTest')
+data.setCell(35, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(35, 3, 1);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyMLFilesTest')
+data.setCell(36, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(36, 3, 1);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyMLFilesTest')
+data.setCell(37, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(37, 3, 1);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifyMLFilesTest')
+data.setCell(38, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(38, 3, 1);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verifyMLFilesTest')
+data.setCell(39, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(39, 3, 1);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'verifyMLFilesTest')
+data.setCell(40, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(40, 3, 1);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'verifyMLFilesTest')
+data.setCell(41, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(41, 3, 1);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'verifyMLFilesTest')
+data.setCell(42, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(42, 3, 1);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'verifyMLFilesTest')
+data.setCell(43, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(43, 3, 1);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'verifyMLFilesTest')
+data.setCell(44, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(44, 3, 1);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'verifyMLFilesTest')
+data.setCell(45, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(45, 3, 1);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'verifyMLFilesTest')
+data.setCell(46, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(46, 3, 1);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'verifyMLFilesTest')
+data.setCell(47, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(47, 3, 1);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'verifyMLFilesTest')
+data.setCell(48, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(48, 3, 1);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'verifyMLFilesTest')
+data.setCell(49, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(49, 3, 1);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'verifyMLFilesTest')
+data.setCell(50, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(50, 3, 1);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'verifyMLFilesTest')
+data.setCell(51, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(51, 3, 0);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'verifyMLFilesTest')
+data.setCell(52, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(52, 3, 0);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'verifyMLFilesTest')
+data.setCell(53, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(53, 3, 0);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'verifyMLFilesTest')
+data.setCell(54, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(54, 3, 0);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'verifyMLFilesTest')
+data.setCell(55, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(55, 3, 0);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'verifyMLFilesTest')
+data.setCell(56, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(56, 3, 0);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'verifyMLFilesTest')
+data.setCell(57, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(57, 3, 0);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'verifyMLFilesTest')
+data.setCell(58, 2, 'testcases.VerifyMLFilesTest')
+data.setCell(58, 3, 0);
 window.suiteTableData['CMPA_Data_Driven_TestRun']= { tableData: data, tableDiv: 'times-div-CMPA_Data_Driven_TestRun'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-CMPA_Data_Driven_TestRun">
               </div> <!-- times-div-CMPA_Data_Driven_TestRun -->
             </div> <!-- times-div -->
@@ -773,30 +1476,18 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=01/10/2020, DESCR=A FP received a complaint alleging that he failed to abide ...)</span>
+              <span class="reporter-method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=Y, CASE_ID=1741746, TRIAL_DATE=, STATUS=Clo...)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><br>Failure to verify: High SeverityHigh Severity expected [] but found [Select...]<br></span>
-                <span class="reporter-method-output"><br>Failure to verify: Last UpdatedLast Updated expected [01/30/2020] but found [09/18/2020]<br></span>
-                <span class="reporter-method-output"><br>Failure to verify: General CounselGeneral Counsel expected [Ms. Donna Lawson] but found [Global]<br></span>
-                <span class="reporter-method-output"><br>Failure to verify: LCA AssignedLCA Assigned expected [ ] but found [Global]<br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=02/12/2018, DESCR=EOL - A 64-year-old male with ALS requested MAiD., RUNMODE=...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><br>Failure to verify: High SeverityHigh Severity expected [] but found [HS1]<br></span>
-                <span class="reporter-method-output"><br>Failure to verify: Last UpdatedLast Updated expected [01/30/2020] but found [10/16/2020]<br></span>
-                <span class="reporter-method-output"><br>Failure to verify: General CounselGeneral Counsel expected [] but found [Ms. Donna Lawson]<br></span>
-                <span class="reporter-method-output"><br>Failure to verify: LCA AssignedLCA Assigned expected [ ] but found [Ms. Donna Lawson]<br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=03/04/2019, DESCR=S-IMPRO - A 60-year-old female with chronic pain disclosed ...)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><br>Failure to verify: High SeverityHigh Severity expected [] but found [Select...]<br></span>
-                <span class="reporter-method-output"><br>Failure to verify: Last UpdatedLast Updated expected [01/30/2020] but found [10/15/2020]<br></span>
-                <span class="reporter-method-output"><br>Failure to verify: General CounselGeneral Counsel expected [] but found [Global]<br></span>
-                <span class="reporter-method-output"><br>Failure to verify: LCA AssignedLCA Assigned expected [ ] but found [Global]<br></span>
+                <span class="reporter-method-output"><br>Failure to verify: File NumberFile Number expected [2009000711] but found [2009000711 MMB (ON)]<br></span>
+                <span class="reporter-method-output"><br>Failure to verify: Shared DamagesShared Damages expected [0.0] but found [$0.00]<br></span>
+                <span class="reporter-method-output"><br>Failure to verify: Total DamagesTotal Damages expected [0.0] but found [$0.00]<br></span>
+                <span class="reporter-method-output"><br>Failure to verify: Date Case CreatedDate Case Created expected [null] but found [10/15/2020]<br></span>
+                <span class="reporter-method-output"><br>Failure to verify: Date Case ModifiedDate Case Modified expected [null] but found [10/15/2020]<br></span>
+                <span class="reporter-method-output"><br>Failure to verify: JuryJury expected [0.0] but found [0]<br></span>
+                <span class="reporter-method-output"><br>Failure to verify: Province of IssueProvince of Issue expected [] but found [Select...]<br></span>
+                <span class="reporter-method-output">Click here for screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Tue_Nov_17_10_02_01_EST_2020.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><a target="_blank"href=Tue_Nov_17_10_02_01_EST_2020.jpg><img src=Tue_Nov_17_10_02_01_EST_2020.jpg height=20 width=20></img></a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -814,7 +1505,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.VerifyFilesTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.VerifyMLFilesTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
@@ -822,122 +1513,254 @@ return data;
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.LoginSugarTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">threadContextInit</span>
+                <span class="method-start">6399 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginSugarTest</span>
-                <span class="method-start">6413 ms</span>
+                <span class="method-start">6427 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.VerifyFilesTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.VerifyMLFilesTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=01/10/2020, DESCR=A FP received a complaint alleging that he failed to abide ...)</span>
-                <span class="method-start">9641 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=Y, CASE_ID=1741746, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">9783 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=03/04/2019, DESCR=S-IMPRO - A 60-year-old female with chronic pain disclosed ...)</span>
-                <span class="method-start">14708 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595269, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">13936 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=02/12/2018, DESCR=EOL - A 64-year-old male with ALS requested MAiD., RUNMODE=...)</span>
-                <span class="method-start">19124 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595373, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">13970 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID=Susan Clark, CLOSED_DATE=04/03/2019, DESCR=A 46-year-old female with a past history of depre...)</span>
-                <span class="method-start">23452 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1537565, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14001 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=06/12/2018, DESCR=Cocaine was found in a 37-year-old male's random urine test...)</span>
-                <span class="method-start">23501 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1602612, TRIAL_DATE=6/8/15, STAT...)</span>
+                <span class="method-start">14026 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=05/16/2019, DESCR=A 24-year-old female gave birth to a severely...)</span>
-                <span class="method-start">23535 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1540801, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14054 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=02/16/2018, DESCR=A 55-year-old male suffered persistent neck and arm pain fo...)</span>
-                <span class="method-start">23561 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1813803, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14083 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=08/29/2019, DESCR=A 67-year-old female with Alzheimer’s disease had a progres...)</span>
-                <span class="method-start">23584 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1699864, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14101 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=03/05/2019, DESCR=A group of urologists wished to improve communication with ...)</span>
-                <span class="method-start">23601 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1542219, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14122 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 34-year-old pregnant female was involved in an MVA an...)</span>
-                <span class="method-start">23618 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1541651, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14140 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 42-year-old female was treated for cellulitis and gou...)</span>
-                <span class="method-start">23636 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1810783, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14163 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=05/28/2020, DESCR=A 66-year-old male died following a routine h...)</span>
-                <span class="method-start">23657 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1811901, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14182 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=S-IMPRO - An eight-year-old female treated for diarrhea...)</span>
-                <span class="method-start">23676 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1919844, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14208 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=10/25/2019, DESCR=A 56-year-old male with chronic pain did not like his famil...)</span>
-                <span class="method-start">23703 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1920614, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14226 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=S-IMPRO – A 55-year-old female alleged inappropriate touching during ...)</span>
-                <span class="method-start">23724 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1636782, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14245 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=03/04/2020, DESCR=IPC - A forensic psychiatrist's facial expression was chara...)</span>
-                <span class="method-start">23753 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3169330, TRIAL_DATE=, STATUS=Ope...)</span>
+                <span class="method-start">14264 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=02/10/2020, DESCR=A 60-year-old female with hearing loss wanted her physician...)</span>
-                <span class="method-start">23786 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2073273, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14283 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=10/08/2020, DESCR=A 54-year-old male shipper-receiver with chronic back pain ...)</span>
-                <span class="method-start">23805 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2024921, TRIAL_DATE=, STATUS=Ope...)</span>
+                <span class="method-start">14301 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=10/15/2019, DESCR=A 59-year-old female suffered a torn artery during cardiac ...)</span>
-                <span class="method-start">23823 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1973738, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14319 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=12/05/2018, DESCR=A man in his 20’s received a prescription for his skin trea...)</span>
-                <span class="method-start">23841 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2443685, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14338 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID=Kelly Gage, CLOSED_DATE=, DESCR=A seven-month-old female experienced a delayed diagnosis of ...)</span>
-                <span class="method-start">23862 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3125108, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14362 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=A 61-year-old female with mental health issues and chronic pain alleg...)</span>
-                <span class="method-start">23883 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2013644, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14386 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=04/20/2018, DESCR=A pediatric resident was required by her program director t...)</span>
-                <span class="method-start">23908 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3140334, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14409 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyFilesTest({CMA_ID= , CLOSED_DATE=, DESCR=RAMQ onco - Billing matter - Quebec haematologist., RUNMODE=N, ML_FIL...)</span>
-                <span class="method-start">23933 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3127239, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14433 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TestRailPublish</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">publishInTestRail</span>
-                <span class="method-start">23983 ms</span>
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2103702, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14456 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.VerifyFilesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2359725, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3406643, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2256233, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2377312, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3242804, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14563 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3391590, TRIAL_DATE=, STATUS=Ope...)</span>
+                <span class="method-start">14587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3392711, TRIAL_DATE=, STATUS=Ope...)</span>
+                <span class="method-start">14608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2414313, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2753634, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3340012, TRIAL_DATE=, STATUS=Ope...)</span>
+                <span class="method-start">14662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3218035, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3152758, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2874184, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14729 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921423, TRIAL_DATE=, STATUS=Ope...)</span>
+                <span class="method-start">14754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921431, TRIAL_DATE=, STATUS=Ope...)</span>
+                <span class="method-start">14778 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2981425, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3520547, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3518560, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14835 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3234004, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14852 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3277685, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14868 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3300433, TRIAL_DATE=, STATUS=Ope...)</span>
+                <span class="method-start">14883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3327893, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14899 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3415610, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14919 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3428917, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">14942 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3668368, TRIAL_DATE=, STATUS=Ope...)</span>
+                <span class="method-start">14964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667606, TRIAL_DATE=, STATUS=Ope...)</span>
+                <span class="method-start">14980 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667588, TRIAL_DATE=, STATUS=Ope...)</span>
+                <span class="method-start">14995 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3451833, TRIAL_DATE=, STATUS=Ope...)</span>
+                <span class="method-start">15025 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3465599, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">15044 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3471819, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">15060 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3473558, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">15083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3479222, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">15099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMLFilesTest({PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3532998, TRIAL_DATE=, STATUS=Clo...)</span>
+                <span class="method-start">15116 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">25694 ms</span>
+                <span class="method-start">15163 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

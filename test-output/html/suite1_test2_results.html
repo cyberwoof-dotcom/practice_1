@@ -3,30 +3,95 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - Verify Member Files Test</title>
+  <title>Test Results Report - Verify ML Case Files Test</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>Verify Member Files Test</h1>
+<h1>Verify ML Case Files Test</h1>
 <p>
-  Test duration: 13.711s
+  Test duration: 11.504s
 </p>
 
 
 
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">testcases.VerifyMLFilesTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    3.752s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=Y, CASE_ID=1741746, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=06/28/2010, ML_FILE_ID=2009000711, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=07/22/2010, JURY=0.0, DELETED=0.0}</span><br />
+    
+            <div class="testOutput">
+                        <br>Failure to verify: File NumberFile Number expected [2009000711] but found [2009000711 MMB (ON)]<br>
+                                <br>Failure to verify: Shared DamagesShared Damages expected [0.0] but found [$0.00]<br>
+                                <br>Failure to verify: Total DamagesTotal Damages expected [0.0] but found [$0.00]<br>
+                                <br>Failure to verify: Date Case CreatedDate Case Created expected [null] but found [10/15/2020]<br>
+                                <br>Failure to verify: Date Case ModifiedDate Case Modified expected [null] but found [10/15/2020]<br>
+                                <br>Failure to verify: JuryJury expected [0.0] but found [0]<br>
+                                <br>Failure to verify: Province of IssueProvince of Issue expected [] but found [Select...]<br>
+                                Click here for screenshot
+                                <a target="_blank" href=Tue_Nov_17_10_02_01_EST_2020.jpg>Screenshot</a>
+                                <a target="_blank"href=Tue_Nov_17_10_02_01_EST_2020.jpg><img src=Tue_Nov_17_10_02_01_EST_2020.jpg height=20 width=20></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: null</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:93)<br />
+              org.testng.Assert.fail(Assert.java:100)<br />
+              testcases.VerifyMLFilesTest.verifyMLFilesTest(VerifyMLFilesTest.java:224)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+      </table>
 
   <table class="resultsTable" width="100%">
     <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">testcases.VerifyFilesTest</td>
+        <td colspan="3" class="group">testcases.VerifyMLFilesTest</td>
       </tr>
             
 <tr>
   <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.001s
@@ -35,7 +100,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=10/15/2019, DESCR=A 59-year-old female suffered a torn artery during cardiac catheterization., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Christopher Canny, POO=ON - Ontario, ML_FILE_ID=2012001197, COO=Windsor, LAST_UPDATED=01/30/2020, CREATION_DATE=01/20/2012, DOO=01/19/2012}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3479222, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=03/13/2019, ML_FILE_ID=2019005842, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=11/28/2019, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -43,24 +108,7 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
-      </td>
-  <td class="duration">
-    0.002s
-  </td>
-  <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">Skipping test.</span>
-          
-          <i>Method arguments: </i><span class="arguments">{CMA_ID=Susan Clark, CLOSED_DATE=04/03/2019, DESCR=A 46-year-old female with a past history of depression and malignant hyperthermia alleged that she experienced awareness and excruciating pain during a laparoscopic robotic-assisted hysterectomy for malignancy., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Maria Bukowskyj, POO=ON - Ontario, ML_FILE_ID=2009000711, COO=Toronto, LAST_UPDATED=01/30/2020, CREATION_DATE=01/16/2009, DOO=12/15/2008}</span><br />
-    
-        
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.001s
@@ -69,7 +117,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=10/25/2019, DESCR=A 56-year-old male with chronic pain did not like his family physician’s approach to narcotic prescribing., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2018016001, COO=Brampton, LAST_UPDATED=01/30/2020, CREATION_DATE=07/05/2018, DOO=08/12/2016}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1813803, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=03/06/2009, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=08/21/2014, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -77,41 +125,7 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
-      </td>
-  <td class="duration">
-    0.001s
-  </td>
-  <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">Skipping test.</span>
-          
-          <i>Method arguments: </i><span class="arguments">{CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 42-year-old female was treated for cellulitis and gout but ultimately required an amputation., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2016021772, COO=Kenora, LAST_UPDATED=09/09/2020, CREATION_DATE=10/19/2016, DOO=05/23/2014}</span><br />
-    
-        
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyFilesTest
-      </td>
-  <td class="duration">
-    0.001s
-  </td>
-  <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">Skipping test.</span>
-          
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=, DESCR=S-IMPRO – A 55-year-old female alleged inappropriate touching during a post-operative assessment of her vulva following excision of a benign cyst., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2018030076, COO=Toronto, LAST_UPDATED=04/03/2020, CREATION_DATE=12/20/2018, DOO=12/19/2018}</span><br />
-    
-        
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.000s
@@ -120,7 +134,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=03/05/2019, DESCR=A group of urologists wished to improve communication with the chief of surgery., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2014008597, COO=Sault Ste. Marie, LAST_UPDATED=01/30/2020, CREATION_DATE=05/07/2014, DOO=02/23/2018}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3391590, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=11/05/2018, ML_FILE_ID=2014012732, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -128,41 +142,7 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
-      </td>
-  <td class="duration">
-    0.002s
-  </td>
-  <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">Skipping test.</span>
-          
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=06/12/2018, DESCR=Cocaine was found in a 37-year-old male's random urine test., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=James Kissick, POO=ON - Ontario, ML_FILE_ID=2016014912, COO=Lively, LAST_UPDATED=01/30/2020, CREATION_DATE=07/13/2016, DOO=07/13/2016}</span><br />
-    
-        
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyFilesTest
-      </td>
-  <td class="duration">
-    0.001s
-  </td>
-  <td class="result">
-                                 	<i>Reason: </i>
-      	<span class="dependency">Skipping test.</span>
-          
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=08/29/2019, DESCR=A 67-year-old female with Alzheimer’s disease had a progression of her cognitive problems., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2012020140, COO=Scarborough, LAST_UPDATED=01/30/2020, CREATION_DATE=11/23/2012, DOO=02/01/2009}</span><br />
-    
-        
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.000s
@@ -171,7 +151,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=02/16/2018, DESCR=A 55-year-old male suffered persistent neck and arm pain following an MVA., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2012007319, COO=Sudbury, LAST_UPDATED=01/30/2020, CREATION_DATE=04/23/2012, DOO=01/17/2011}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667606, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/28/2019, ML_FILE_ID=2018030076, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -179,7 +159,7 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.001s
@@ -188,7 +168,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=S-IMPRO - An eight-year-old female treated for diarrhea made an allegation of sexual impropriety many years later., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2018012407, COO=Toronto, LAST_UPDATED=01/23/2020, CREATION_DATE=05/23/2018, DOO=06/27/1980}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3392711, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=11/05/2018, ML_FILE_ID=2014012732, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -196,7 +176,7 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.001s
@@ -205,7 +185,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=04/20/2018, DESCR=A pediatric resident was required by her program director to go on medical leave., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Robert Johnston, POO=ON - Ontario, ML_FILE_ID=2018009406, COO=London, LAST_UPDATED=01/30/2020, CREATION_DATE=04/19/2018, DOO=04/20/2018}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1540801, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/28/2009, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/28/2009, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -213,7 +193,7 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.001s
@@ -222,7 +202,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID=Kelly Gage, CLOSED_DATE=, DESCR=A seven-month-old female experienced a delayed diagnosis of hydrocephaly., RUNMODE=N, ML_FILE_TYPE=HS1, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Julie Jenner, POO=ON - Ontario, ML_FILE_ID=2009014568, COO=Ottawa, LAST_UPDATED=09/30/2020, CREATION_DATE=10/16/2018, DOO=01/02/2009}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3327893, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=07/05/2018, ML_FILE_ID=2018016001, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=10/25/2019, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -230,7 +210,109 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1537565, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/16/2009, ML_FILE_ID=2009000711, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/20/2009, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3465599, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=02/20/2019, ML_FILE_ID=2019004846, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=02/20/2019, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1919844, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=09/12/2011, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=09/16/2013, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3532998, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=06/03/2019, ML_FILE_ID=2019014064, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=10/08/2020, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3428917, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=12/20/2018, ML_FILE_ID=2018030076, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=04/02/2020, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3127239, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=08/16/2017, ML_FILE_ID=2012020140, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=08/16/2017, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.002s
@@ -239,7 +321,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=03/04/2020, DESCR=IPC - A forensic psychiatrist's facial expression was characterized as dismissive by another staff member., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2019005554, COO=London, LAST_UPDATED=03/04/2020, CREATION_DATE=02/27/2019, DOO=03/04/2018}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1699864, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=03/19/2010, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=09/12/2011, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -247,7 +329,24 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3242804, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=02/23/2018, ML_FILE_ID=2014008597, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=03/05/2019, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.001s
@@ -256,7 +355,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=02/10/2020, DESCR=A 60-year-old female with hearing loss wanted her physician to remove her mask while speaking., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2019005842, COO=Lucan, LAST_UPDATED=02/11/2020, CREATION_DATE=03/01/2019, DOO=10/23/2018}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921423, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=10/20/2016, ML_FILE_ID=2016021772, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -264,7 +363,24 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3277685, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=04/20/2018, ML_FILE_ID=2018009406, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=04/20/2018, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.001s
@@ -273,7 +389,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID=Christine Teske, CLOSED_DATE=, DESCR=A 34-year-old pregnant female was involved in an MVA and later delivered a male infant with neurologic compromise., RUNMODE=N, ML_FILE_TYPE=HS1, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2014012732, COO=Ottawa, LAST_UPDATED=08/11/2020, CREATION_DATE=07/11/2014, DOO=05/21/2014}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2414313, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=07/11/2014, ML_FILE_ID=2014012732, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=03/27/2015, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -281,7 +397,7 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.001s
@@ -290,7 +406,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=, DESCR=RAMQ onco - Billing matter - Quebec haematologist., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Yolanda Madarnas, POO=QC - Quebec, ML_FILE_ID=2019002703, COO=Côte-Saint-Luc, LAST_UPDATED=01/30/2020, CREATION_DATE=01/30/2019, DOO=01/01/2018}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1811901, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=1.3E7, DATE_OPENED=12/20/2010, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=1.35E7, APPEALED=, DATE_CLOSED=05/16/2019, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -298,7 +414,7 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.001s
@@ -307,7 +423,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=12/05/2018, DESCR=A man in his 20’s received a prescription for his skin treatment in another patient’s name., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Shena Riff, POO=ON - Ontario, ML_FILE_ID=2.018028506E9, COO=Merrickville, LAST_UPDATED=01/30/2020, CREATION_DATE=12/04/2018, DOO=01/01/2018}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2921431, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=10/21/2016, ML_FILE_ID=2016021772, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -315,7 +431,7 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.001s
@@ -324,7 +440,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID=Christine Teske, CLOSED_DATE=05/28/2020, DESCR=A 66-year-old male died following a routine hemicolectomy., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2017000276, COO=Orillia, LAST_UPDATED=05/29/2020, CREATION_DATE=01/05/2017, DOO=10/24/2016}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2013644, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=04/24/2012, ML_FILE_ID=2012007319, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=05/15/2014, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -332,7 +448,7 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.001s
@@ -341,7 +457,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=10/08/2020, DESCR=A 54-year-old male shipper-receiver with chronic back pain following a workplace injury was judged to have no psychiatric disability., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2019014064, COO=Toronto, LAST_UPDATED=10/08/2020, CREATION_DATE=06/03/2019, DOO=09/01/2011}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3169330, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=12/01/2017, ML_FILE_ID=2009014568, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -349,7 +465,58 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3667588, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/28/2019, ML_FILE_ID=2018030076, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2359725, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=03/25/2014, ML_FILE_ID=2013019118, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/10/2020, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1973738, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/20/2012, ML_FILE_ID=2012001197, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=03/20/2014, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
       </td>
   <td class="duration">
     0.002s
@@ -358,7 +525,7 @@
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=, DESCR=A 61-year-old female with mental health issues and chronic pain alleged inappropriate care by multiple physicians., RUNMODE=N, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=, ASSIGNED_TO=Caroline Ehrat, POO=ON - Ontario, ML_FILE_ID=2016001057, COO=Toronto, LAST_UPDATED=01/30/2020, CREATION_DATE=01/15/2016, DOO=01/01/2002}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595269, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=05/16/2017, ML_FILE_ID=2009000711, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=08/23/2018, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -366,16 +533,526 @@
 </tr>
 <tr>
   <td class="method">
-                  verifyFilesTest
+                  verifyMLFilesTest
       </td>
   <td class="duration">
-    0.002s
+    0.001s
   </td>
   <td class="result">
                                  	<i>Reason: </i>
       	<span class="dependency">Skipping test.</span>
           
-          <i>Method arguments: </i><span class="arguments">{CMA_ID=Christine Teske, CLOSED_DATE=05/16/2019, DESCR=A 24-year-old female gave birth to a severely compromised female infant after a prolonged second stage., RUNMODE=N, ML_FILE_TYPE=HS1, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Sharon Caughey, POO=ON - Ontario, ML_FILE_ID=2009001208, COO=Oshawa, LAST_UPDATED=01/30/2020, CREATION_DATE=01/26/2009, DOO=01/25/2009}</span><br />
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3125108, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=08/10/2017, ML_FILE_ID=2012007319, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=02/16/2018, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2753634, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/18/2016, ML_FILE_ID=2016001057, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/18/2016, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2443685, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=09/11/2014, ML_FILE_ID=2012001197, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/18/2016, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1636782, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=10/16/2009, ML_FILE_ID=2009014568, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=06/11/2010, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3140334, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=09/13/2017, ML_FILE_ID=2012020140, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=08/29/2019, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3473558, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=03/04/2019, ML_FILE_ID=2019005842, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=02/10/2020, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1541651, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/29/2009, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2256233, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=10/31/2013, ML_FILE_ID=2013019118, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=08/29/2016, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3152758, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=10/11/2017, ML_FILE_ID=2016014912, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=06/12/2018, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1602612, TRIAL_DATE=6/8/15, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=550000.0, DATE_OPENED=06/30/2009, ML_FILE_ID=2009000711, DATE_CREATE=, TOTAL_DAMAGES=550000.0, APPEALED=, DATE_CLOSED=04/03/2019, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2874184, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=07/13/2016, ML_FILE_ID=2016014912, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=07/14/2016, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1595373, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=06/16/2009, ML_FILE_ID=2009000711, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=08/31/2009, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1542219, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/29/2009, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=07/19/2018, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2377312, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=05/07/2014, ML_FILE_ID=2014008597, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=05/08/2014, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3234004, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=02/12/2018, ML_FILE_ID=2018003393, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=02/12/2018, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3518560, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=05/10/2019, ML_FILE_ID=2017000276, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=05/28/2020, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2103702, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=11/22/2012, ML_FILE_ID=2012020140, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=02/02/2015, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1920614, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=09/13/2011, ML_FILE_ID=2009014568, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/15/2019, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3218035, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/22/2018, ML_FILE_ID=2016014912, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=06/12/2018, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3471819, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=02/28/2019, ML_FILE_ID=2019005554, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=03/04/2020, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=1810783, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=12/20/2010, ML_FILE_ID=2009001208, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=07/13/2011, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3415610, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=12/05/2018, ML_FILE_ID=2018028506, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=12/05/2018, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3520547, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=05/14/2019, ML_FILE_ID=2017000276, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=05/28/2020, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3300433, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=05/24/2018, ML_FILE_ID=2018012407, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3668368, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/20/2020, ML_FILE_ID=2018030076, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2024921, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=05/17/2012, ML_FILE_ID=2012001197, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2073273, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=09/10/2012, ML_FILE_ID=2012001197, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=10/15/2019, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=2981425, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=01/05/2017, ML_FILE_ID=2017000276, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=01/25/2017, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3406643, TRIAL_DATE=, STATUS=Closed, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=11/21/2018, ML_FILE_ID=2013019118, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=06/20/2019, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3340012, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=07/25/2018, ML_FILE_ID=2016001057, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0}</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyMLFilesTest
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                                 	<i>Reason: </i>
+      	<span class="dependency">Skipping test.</span>
+          
+          <i>Method arguments: </i><span class="arguments">{PROVINCE_OF_ISSUE=, DATE MODIFIED=, APPELLANT=, RUNMODE=N, CASE_ID=3451833, TRIAL_DATE=, STATUS=Open, PROCEDURE=, CMPA_SHARE_DAMAGES=0.0, DATE_OPENED=02/01/2019, ML_FILE_ID=2019002703, DATE_CREATE=, TOTAL_DAMAGES=0.0, APPEALED=, DATE_CLOSED=, JURY=0.0, DELETED=0.0}</span><br />
     
         
 
@@ -383,76 +1060,6 @@
 </tr>
       </table>
 
-  <table class="resultsTable">
-    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
-          <tr>
-        <td colspan="3" class="group">testcases.VerifyFilesTest</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  verifyFilesTest
-      </td>
-  <td class="duration">
-    4.379s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=03/04/2019, DESCR=S-IMPRO - A 60-year-old female with chronic pain disclosed that she accepted a social invitation to dinner by a podiatrist and that she was uncomfortable when he attempted to kiss her., RUNMODE=Y, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Shena Riff, POO=AB - Alberta, ML_FILE_ID=2019004846, COO=Fort McMurray, LAST_UPDATED=01/30/2020, CREATION_DATE=02/20/2019, DOO=01/01/2019}</span><br />
-    
-            <div class="testOutput">
-                        &lt;br&gt;Failure to verify: High SeverityHigh Severity expected [] but found [Select...]&lt;br&gt;<br />
-                                &lt;br&gt;Failure to verify: Last UpdatedLast Updated expected [01/30/2020] but found [10/15/2020]&lt;br&gt;<br />
-                                &lt;br&gt;Failure to verify: General CounselGeneral Counsel expected [] but found [Global]&lt;br&gt;<br />
-                                &lt;br&gt;Failure to verify: LCA AssignedLCA Assigned expected [ ] but found [Global]&lt;br&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyFilesTest
-      </td>
-  <td class="duration">
-    4.291s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=02/12/2018, DESCR=EOL - A 64-year-old male with ALS requested MAiD., RUNMODE=Y, ML_FILE_TYPE=, GENERAL_COUNSEL=, STATUS=Closed, ASSIGNED_TO=Dennis Desai, POO=MB - Manitoba, ML_FILE_ID=2018003393, COO=Winnipeg, LAST_UPDATED=01/30/2020, CREATION_DATE=02/09/2018, DOO=01/01/2018}</span><br />
-    
-            <div class="testOutput">
-                        &lt;br&gt;Failure to verify: High SeverityHigh Severity expected [] but found [HS1]&lt;br&gt;<br />
-                                &lt;br&gt;Failure to verify: Last UpdatedLast Updated expected [01/30/2020] but found [10/16/2020]&lt;br&gt;<br />
-                                &lt;br&gt;Failure to verify: General CounselGeneral Counsel expected [] but found [Ms. Donna Lawson]&lt;br&gt;<br />
-                                &lt;br&gt;Failure to verify: LCA AssignedLCA Assigned expected [ ] but found [Ms. Donna Lawson]&lt;br&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-<tr>
-  <td class="method">
-                  verifyFilesTest
-      </td>
-  <td class="duration">
-    5.017s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">{CMA_ID= , CLOSED_DATE=01/10/2020, DESCR=A FP received a complaint alleging that he failed to abide by a previous Undertaking., RUNMODE=Y, ML_FILE_TYPE=, GENERAL_COUNSEL=Ms. Donna Lawson, STATUS=Closed, ASSIGNED_TO=Shena Riff, POO=AB - Alberta, ML_FILE_ID=2013019118, COO=Cochrane, LAST_UPDATED=01/30/2020, CREATION_DATE=10/30/2013, DOO=10/11/2013}</span><br />
-    
-            <div class="testOutput">
-                        &lt;br&gt;Failure to verify: High SeverityHigh Severity expected [] but found [Select...]&lt;br&gt;<br />
-                                &lt;br&gt;Failure to verify: Last UpdatedLast Updated expected [01/30/2020] but found [09/18/2020]&lt;br&gt;<br />
-                                &lt;br&gt;Failure to verify: General CounselGeneral Counsel expected [Ms. Donna Lawson] but found [Global]&lt;br&gt;<br />
-                                &lt;br&gt;Failure to verify: LCA AssignedLCA Assigned expected [ ] but found [Global]&lt;br&gt;<br />
-                  </div>
-    
-
-      </td>
-</tr>
-      </table>
   
 </body>
 </html>

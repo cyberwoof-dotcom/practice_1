@@ -3,25 +3,19 @@
 <suite name="CMPA Data Driven TestRun">
 
     <listeners>
-      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
-      <listener class-name="listeners.CustomListeners"/>
-  	</listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="listeners.CustomListeners"/>
+    </listeners>
 
-  <test  name="Login To Sugar Test">
-    <classes>
-      <class name="testcases.LoginSugarTest"></class>
-    </classes>
-      </test> <!-- Test --> 
-     <test name="Verify Member Files Test">
-    <classes>
-      <class name="testcases.VerifyFilesTest"></class>
-    </classes>
-  </test> <!-- Test --> 
-  
-     <test name="PublishInTestRail">
+    <test  name="Login To Sugar Test">
         <classes>
-            <class name="testcases.TestRailPublish"/>
+            <class name="testcases.LoginSugarTest"></class>
         </classes>
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        <test name="Verify ML Case Files Test">
+        <classes>
+            <class name="testcases.VerifyMLFilesTest"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

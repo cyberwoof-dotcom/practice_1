@@ -1,5 +1,7 @@
 package TestNGReport;
 
+import org.apache.commons.collections4.MultiValuedMap;
+import org.apache.commons.collections4.multimap.ArrayListValuedHashMap;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -11,14 +13,12 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 
 public class TestNGReportReadAndParse {
 
-    public Map<String,String> readTestNGReport() throws ParserConfigurationException, IOException, SAXException {
+    public MultiValuedMap<String,String> readTestNGReport() throws ParserConfigurationException, IOException, SAXException {
 
-        Map<String,String>mapOfStatus=new HashMap<String, String>();
+        MultiValuedMap<String,String> mapOfStatus=new ArrayListValuedHashMap<String, String>();
         String path = System.getProperty("user.dir")+"/test-output/testng-results.xml";
         File fXmlFile = new File(path);
 
@@ -63,7 +63,7 @@ public class TestNGReportReadAndParse {
 
     public static void main(String[] args) throws IOException, SAXException, ParserConfigurationException {
         TestNGReportReadAndParse testNGReportReadAndParse=new TestNGReportReadAndParse();
-        Map<String,String>map=testNGReportReadAndParse.readTestNGReport();
+        MultiValuedMap<String,String>map=testNGReportReadAndParse.readTestNGReport();
         System.out.println("Map--"+map);
     }
 }

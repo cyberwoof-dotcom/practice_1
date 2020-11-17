@@ -3,8 +3,8 @@
            tests="24"
            failures="0"
            errors="0"
-           skipped="21"
-           time="13.711">
+           skipped="24"
+           time="0.032">
   <properties />
   
             <testcase name="verifyFilesTest" time="0.0" classname="testcases.VerifyFilesTest">
@@ -70,9 +70,15 @@
             <testcase name="verifyFilesTest" time="0.0" classname="testcases.VerifyFilesTest">
           <skipped />
     </testcase>
+            <testcase name="verifyFilesTest" time="0.0" classname="testcases.VerifyFilesTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyFilesTest" time="0.0" classname="testcases.VerifyFilesTest">
+          <skipped />
+    </testcase>
+            <testcase name="verifyFilesTest" time="0.0" classname="testcases.VerifyFilesTest">
+          <skipped />
+    </testcase>
   
-            <testcase name="verifyFilesTest" time="5.017" classname="testcases.VerifyFilesTest" />
-                <testcase name="verifyFilesTest" time="4.291" classname="testcases.VerifyFilesTest" />
-                <testcase name="verifyFilesTest" time="4.379" classname="testcases.VerifyFilesTest" />
-      
+  
 </testsuite>

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.671">
+           time="9.120">
   <properties />
   
   
-            <testcase name="publishInTestRail" time="1.671" classname="testcases.TestRailPublish" />
+            <testcase name="publishInTestRail" time="9.120" classname="testcases.TestRailPublish" />
       
 </testsuite>

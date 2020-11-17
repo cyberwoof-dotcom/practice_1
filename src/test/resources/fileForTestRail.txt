@@ -1,0 +1,18 @@
+loginSugarTestLoginSugarTest#  
+verifyMLFilesTest:2009000711 
+File Number-----Expected value was: 2009000711 but found 2009000711 MMB (ON) 
+verifyCase:1741746# 
+File Number-----Expected value was 1741746 and found 1741746 
+Appealed-----Expected value was 0 and found 0 
+Appellant-----Expected value was  and found  
+CMPA Shared Damages-----Expected value was: 0.0 but found $0.00 
+Total Damages-----Expected value was: 0.0 but found $0.00 
+Creation Date-----Expected value was: null but found 10/15/2020 
+Date Case Opened-----Expected value was 06/28/2010 and found 06/28/2010 
+Case Modified Date-----Expected value was: null but found 10/15/2020 
+Case Closed Date-----Expected value was 07/22/2010 and found 07/22/2010 
+Trial Date-----Expected value was  and found  
+Jury-----Expected value was: 0.0 but found 0 
+Province of Issue-----Expected value was:  but found Select... 
+Case Status-----Expected value was Closed and found Closed 
+
