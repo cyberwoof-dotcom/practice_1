@@ -14,7 +14,7 @@ public class Sugar2154Page {
         this.driver = driver;
     }
 
-    By eventTypeMemberShip = By.xpath("//*[@id=s2id_autogen1]/a/span[2]");
+    By eventTypeMemberShip = By.xpath("//*[@class='label label-module label-module-lg label-CM_EV_MemberEvents']");
     By eventTypeMemberShip1 = By.xpath("//*[@id=\"s2id_autogen1\"]/a/span[2]");
     By eventTypeMemberShipSearch = By.xpath("//*[@id=\'s2id_autogen2_search\']");
     By reasonElement = By.xpath("//*[@id=\"s2id_autogen3\"]/a/span[2]");

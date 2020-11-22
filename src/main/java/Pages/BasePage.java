@@ -37,10 +37,11 @@ public class BasePage {
 
     public void navigateToCRMLoginPage(WebDriver driver) throws Exception {
         Thread.sleep(3000);
-        driver.get("https://qlsugqa01.cmpa.org/");
+        driver.get("https://plsugppap.cmpa.org/");
+        driver.manage().deleteAllCookies();
     }
 
-    public void loginWithUserNameAndPassword(WebDriver driver,String userid, String password) {
+    public void loginWithUserNameAndPassword(WebDriver driver,String userid, String password)  {
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(userNameElement));
 

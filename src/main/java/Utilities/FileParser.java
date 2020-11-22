@@ -23,10 +23,10 @@ public class FileParser {
 
         try (Stream<String> stream = Files.lines(Paths.get(FILE_NAME))) {
             List<String> list = Files.readAllLines(Paths.get(FILE_NAME.toString()));
-            verifyFilesTest = stream.filter(line -> line.contains("verifyFilesTest"))
+            verifyFilesTest = stream.filter(line -> line.contains("verifyMLFilesTest"))
                     .map(String::toUpperCase).collect(Collectors.toList());
 
-            lineNumbers = IntStream.range(0, list.size()).filter(i -> list.get(i).contains("verifyFilesTest"))
+            lineNumbers = IntStream.range(0, list.size()).filter(i -> list.get(i).contains("verifyMLFilesTest"))
                     .mapToObj(i -> i + 1).collect(Collectors.toList());
 
             Iterator<String> iterator = verifyFilesTest.iterator();
